@@ -1,0 +1,152 @@
+#navigation {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    /* width: 100%; */
+    padding: 2px;
+    background-color: #339966;
+    color: #FFFFFF;
+}
+#navigation:before {
+    content: ">>  ";
+    color: #CCCCCC;
+}
+#navigation:after {
+    content: "  <<";
+    color: #CCCCCC;
+}
+#navigation a:link {
+    color: #CCFFFF;
+}
+#navigation a:visited {
+    color: #FFCCFF;
+}
+#navigation a:active {
+    color: #FFCCCC;
+}
+#navigation a:hover {
+    background-color: #66CC99;
+}
+#navigation {
+    opacity: 0.3;
+}
+#navigation:hover {
+    opacity: 1;
+}
+
+#main {
+    max-width: 800px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-bottom: gray 2px dotted;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    border-top: #339966 3px dotted;
+    border-bottom: #339966 3px dotted;
+}
+h2:before {
+    content:">> ";
+    color: gray;
+}
+h2 {
+    background-color: #CCFFCC;
+    border: #CCFFCC 1px solid;
+    padding: 3px;
+}
+h2:hover {
+    color: #663366;
+    border: #663366 1px solid;
+}
+h3 {
+    max-width: 400px;
+    border-left: silver 3px solid;
+    border-bottom: silver 3px solid;
+    padding: 2px;
+}
+h3:hover {
+    border-left: gray 3px solid;
+    border-bottom: gray 3px solid;
+}
+
+p {
+    text-indent: 10px;
+}
+
+.timemem {
+    text-align: right;
+}
+
+.source {
+    text-align: right;
+}
+
+/* a:link {
+    color: #CCFFFF;
+}
+a:visited {
+    color: #FFCCFF;
+}
+a:active {
+    color: #FFCCCC;
+} */
+a:hover {
+    background-color: #FFCCFF;
+}
+
+table.problem-table td {
+    border-right: #999999 1px solid;
+    border-bottom: #999999 1px solid;
+}
+table.problem-table td:nth-child(1) {
+    width: 100px;
+}
+table.problem-table td:nth-child(2) {
+    width: 250px;
+}
+table.problem-table td:nth-child(3) {
+    width: 50px;
+}
+table.problem-table td:nth-child(4) {
+    width: 50px;
+}
+table.problem-table td:nth-child(5) {
+    width: 50px;
+}
+table.problem-table td:nth-child(6) {
+    width: 50px;
+}
+
+table.constraints-table td {
+    border-right: #CCCCCC 1px solid;
+    border-bottom: #CCCCCC 1px solid;
+}
+
+table.sample-data {
+    margin: 10px;
+    border: black 1px dashed;
+}
+table.sample-data td {
+    text-align: left;
+    vertical-align: top;
+}
+table.sample-data pre {
+    padding: 2px;
+    border: silver 1px solid;
+}
+
+.img-tableau {
+    border: silver 1px solid;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
