@@ -1,0 +1,75 @@
+---
+layout: default
+title: JOI
+---
+
+JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
+
+h2. 関連
+
+* "公式サイト":http://www.ioi-jp.org/
+* "合宿に関する情報と問題文のソース、テストデータなど":http://www.ioi-jp.org/camp/
+* "JOI合宿過去問メモ by qnighy":http://dl.dropbox.com/u/3198071/joi-sp-list.html … qnighyによる2009以前の過去問の解説。
+* "JOI過去問メモ":http://dl.dropbox.com/u/5224488/JOI/index.html … japljによる2009以前の過去問の解説。
+* "JOI用語集":joi-yougo.html
+
+|2007-day1|score|得点(Score)|問題|解説|
+|2007-day1|factorial|階乗(Factorial)|問題|解説|
+|2007-day1|mall|ショッピングモール(Mall)|問題|解説|
+|2007-day2|building|ビルの飾り付け(Building)|問題|解説|
+|2007-day2|fermat|フェルマー方程式(Fermat)|問題|解説|
+|2007-day2|salt|SALT TREE XV(Salt)|問題|解説|
+|2007-day3|anagram|アナグラム(Anagram)|問題|解説|
+|2007-day3|route|象使い(Route)|問題|解説|
+|2007-day3|circuit|電気回路の結線(Circuit)|問題|解説|
+|2007-day4|fiber|光ファイバー(Fiber)|問題|解説|
+|2007-day4|lines|直線(Lines)|問題|解説|
+|2007-day4|packing|半導体工場(Packing)|問題|解説|
+|2008-day1|committee|委員会(Committee)|問題|解説|
+|2008-day1|sheet|色紙(Sheet)|問題|解説|
+|2008-day1|flu|インフルエンザ(Flu)|問題|解説|
+|2008-day2|nile|ナイルドットコム(Nile.Com)|問題|解説|
+|2008-day2|cheating|カンニング対策(Cheating)|問題|解説|
+|2008-day2|belt|ベルト(Belt)|問題|解説|
+|2008-day3|origami|折り紙(Origami)|問題|解説|
+|2008-day3|fraction|分数(Fraction)|問題|解説|
+|2008-day3|nightman|夜警(Nightman)|問題|解説|
+|2008-day4|ruins|最古の遺跡2(Ruins)|問題|解説|
+|2008-day4|typhoon|台風(Typhoon)|問題|解説|
+|2008-day4|election|選挙(Election)|問題|解説|
+|2009-day1|sequence|数列(Sequence)|問題|解説|
+|2009-day1|stamps|判子(はんこ)(Stamps)|問題|解説|
+|2009-day1|pyramid|貫きピラミッド(Pyramid)|問題|解説|
+|2009-day2|abduction|誘拐(Abduction)|問題|解説|
+|2009-day2|advertisement|宣伝(Advertisement)|問題|解説|
+|2009-day2|contest|コンテスト(Contest)|問題|解説|
+|2009-day3|territory|縄張り(Territory)|問題|解説|
+|2009-day3|ski|スキー(Ski)|問題|解説|
+|2009-day3|logo|ロゴマーク(Logo)|問題|解説|
+|2009-day4|distribution|冊子の配布(Distribution)|問題|解説|
+|2009-day4|chopsticks|塗り箸(Chopsticks)|問題|解説|
+|2009-day4|starry_sky|星空(Starry Sky)|問題|解説|
+|2010-day1|poster|JOIポスター(JOI Poster)|問題|解説|
+|2010-day2|aplusb|足し算(a + b problem)|問題|解説|
+|2010-day2|dna|DNAの合成(DNA Synthesizer)|問題|解説|
+|2010-day2|regions|地域(Regions)|問題|解説|
+|2010-day3|finals|本選会場(Finals)|問題|解説|
+|2010-day3|hideseek|かくれんぼ(Hide-and-seek)|問題|解説|
+|2010-day3|simroad|シムロード(SimRoad)|問題|解説|
+|2010-day4|contest|コンテスト(Contest)|問題|解説|
+|2010-day4|highway|高速道路(Highway)|問題|解説|
+|2010-day4|lake|湖(Lake)|問題|解説|
+|2010-day4|plugs|プラグ(Plugs)|問題|解説|
+|2011-day1|banner|横断幕(Banner)|問題|解説|
+|2011-day1|dragon|ドラゴン(Dragon)|問題|解説|
+|2011-day1|joitter|ジョイッター(Joitter)|問題|解説|
+|2011-day2|guess|数当て(Guess Them All)|問題|解説|
+|2011-day2|keycards|カードキー(Keycards)|問題|解説|
+|2011-day2|shiritori|しりとり(Shiritori)|問題|解説|
+|2011-day3|deciphering|解読(Deciphering)|問題|解説|
+|2011-day3|report|報告(Report)|問題|解説|
+|2011-day3|ufo|UFOの飛行場(UFO)|問題|解説|
+|2011-day4|apples|リンゴの出荷(Apples)|問題|解説|
+|2011-day4|bookshelf|本棚(Bookshelf)|問題|解説|
+|2011-day4|ioi|国際情報オリンピック(IOI)|問題|解説|
+|2011-day4|orienteering|オリエンテーリング(Oriengeering)|問題|解説|
