@@ -1,0 +1,18 @@
+---
+layout: default
+title: ホーム
+---
+
+p. qnighy("id:qnighy":http://d.hatena.ne.jp/qnighy/ , "@qnighy":http://twitter.com/qnighy/ )による情報オリンピックの問題および解説です。
+
+h2. 国際コンテスト International Competition
+* "IOI(International Olympiad in Informatics)":ioi.html - 国際情報オリンピック
+
+h2. 地域コンテスト Regional Competition
+* "APIO(Asia Pacific Informatics Olympiad)":apio.html - アジア太平洋情報オリンピック
+* "CEOI(Central European Olympiad in Informatics)":ceoi.html - 中央ヨーロッパ情報オリンピック
+* BOI(Baltic Olympiad in Informatics) - バルト海情報オリンピック
+
+h2. 国内コンテスト National Competition
+p. "国内コンテストの一覧":http://olympiads.win.tue.nl/ioi/noi/index.html
+* "JOI(Japan Olympiad in Informatics)":joi.html - 日本情報オリンピック
