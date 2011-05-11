@@ -106,9 +106,11 @@ table td {
     border-right: #999999 1px solid;
     border-bottom: #999999 1px solid;
 }
-table tr:nth-child(even) td {
-    border-right: #CCCCCC 1px solid;
-    border-bottom: #CCCCCC 1px solid;
+table tr:hover {
+    background-color: #EEEEEE;
+}
+table tr:nth-child(even):hover {
+    background-color: #DDDDDD;
 }
 
 .img-tableau {
