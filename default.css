@@ -38,8 +38,7 @@
 #main {
     max-width: 800px;
     margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 100px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
@@ -103,45 +102,13 @@ a:hover {
     background-color: #FFCCFF;
 }
 
-table.problem-table td {
+table td {
     border-right: #999999 1px solid;
     border-bottom: #999999 1px solid;
 }
-table.problem-table td:nth-child(1) {
-    width: 100px;
-}
-table.problem-table td:nth-child(2) {
-    width: 250px;
-}
-table.problem-table td:nth-child(3) {
-    width: 50px;
-}
-table.problem-table td:nth-child(4) {
-    width: 50px;
-}
-table.problem-table td:nth-child(5) {
-    width: 50px;
-}
-table.problem-table td:nth-child(6) {
-    width: 50px;
-}
-
-table.constraints-table td {
+table tr:nth-child(even) td {
     border-right: #CCCCCC 1px solid;
     border-bottom: #CCCCCC 1px solid;
-}
-
-table.sample-data {
-    margin: 10px;
-    border: black 1px dashed;
-}
-table.sample-data td {
-    text-align: left;
-    vertical-align: top;
-}
-table.sample-data pre {
-    padding: 2px;
-    border: silver 1px solid;
 }
 
 .img-tableau {

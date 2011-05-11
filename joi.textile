@@ -13,6 +13,7 @@ h2. 関連
 * "JOI過去問メモ":http://dl.dropbox.com/u/5224488/JOI/index.html … japljによる2009以前の過去問の解説。
 * "JOI用語集":joi-yougo.html
 
+h2. 問題一覧
 |2007-day1|score|得点(Score)|問題|解説|
 |2007-day1|factorial|階乗(Factorial)|問題|解説|
 |2007-day1|mall|ショッピングモール(Mall)|問題|解説|
