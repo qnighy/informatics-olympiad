@@ -3,20 +3,35 @@ layout: default
 title: ホーム
 ---
 
-p. qnighy("id:qnighy":http://d.hatena.ne.jp/qnighy/ , "@qnighy":http://twitter.com/qnighy/ )による情報オリンピックの問題および解説です。
+qnighy("id:qnighy":http://d.hatena.ne.jp/qnighy/ , "@qnighy":http://twitter.com/qnighy/ )による情報オリンピックの問題および解説です。
 
-h2. 国際コンテスト International Competition
+h2. このページの作者
 
-* "IOI(International Olympiad in Informatics)":ioi.html - 国際情報オリンピック
+このページの作者であるqnighyは、アルゴリズムとかが割と好きな高校生です。
 
-h2. 地域コンテスト Regional Competition
+qnighyの戦績を挙げます。
+* 東工大および阪大が主催するスーパーコンピューティングコンテスト(SuperCon)の2009と2010にチームZATORIKUとして参加し、2度とも優勝しました。
+* 第22回国際情報オリンピック(カナダ大会)に日本代表として参加し、金メダル(300人中16位タイ)を獲得しました。
+* 第23回国際情報オリンピック(タイ大会)に日本代表として参加します。
 
-* "APIO(Asia Pacific Informatics Olympiad)":apio.html - アジア太平洋情報オリンピック
-* "CEOI(Central European Olympiad in Informatics)":ceoi.html - 中央ヨーロッパ情報オリンピック
-* BOI(Baltic Olympiad in Informatics) - バルト海情報オリンピック
+h2. このページの目的
 
-h2. 国内コンテスト National Competition
+このページは、国際情報オリンピック(IOI)やそれに近い系統のレベルの高い大会において、よりよい成績を残すために、日本語話者にとって役に立つであろう情報を纏めるために作られました。
 
-p. "国内コンテストの一覧":http://olympiads.win.tue.nl/ioi/noi/index.html
+日本語話者であって情報オリンピックに縁のあるような人達、特に日本情報オリンピックの春合宿参加者にとって有益な情報を提供できれば、幸いです。
 
-* "JOI(Japan Olympiad in Informatics)":joi.html - 日本情報オリンピック
+h2. このページの内容
+
+このページは以下のような内容を掲載します。
+
+* 情報オリンピックの国際大会レベルの問題、すなわち国際大会(IOI)、地域別大会(APIO, CEOI, etc)、国内代表選抜(JOI, etc)などをソースとする問題を掲載します。必要に応じて日本語訳を行います。
+* 上記のような問題について、その解説を掲載、翻訳、あるいは執筆します。
+* 情報オリンピックにおいて重要なアルゴリズムや汎用の戦略、考え方についてまとめ、掲載します。
+* その他、情報オリンピックに関係する雑多な情報を提供します。
+
+h2. このページの権利について
+
+* このページで掲載されている問題や引用については、明示的な掲載の許可をとっていません。そのため、これらおよびその翻訳の孫引きは禁止します。
+* このページで掲載されているqnighyオリジナルの文章については、MITライセンスかクリエイティブ・コモンズ0のどちらかのライセンスに基づいての使用を許可します。
+
+
