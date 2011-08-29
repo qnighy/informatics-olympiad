@@ -6,6 +6,7 @@ def conv(str, title)
   timedata = nil
   memdata = nil
   titledata = nil
+  writerdata = nil
   sourcedata = nil
   source_urldata = nil
   table_construct = ""
@@ -71,13 +72,19 @@ def conv(str, title)
       if /([0-9.]+MB)/ === val
         memdata = $1
       end
-    elsif /<h1>(.*)\((.*)\)<\/h1>/ === line
-      titledata = "#$2(#$1) - #{title}"
-    elsif /<h1>(.*): (.*)<\/h1>/ === line
-      titledata = "#$1(#$2) - #{title}"
+    # elsif /<h1>(.*)\((.*)\)<\/h1>/ === line
+    #   titledata = "#$2(#$1) - #{title}"
+    # elsif /<h1>(.*): (.*)<\/h1>/ === line
+    #   titledata = "#$1(#$2) - #{title}"
+    elsif /<h1>(.*)\((.*)\) 解説<\/h1>/ === line
+      titledata = "#$2(#$1) - #{title} 解説"
+    elsif /<h1>(.*): (.*) 解説<\/h1>/ === line
+      titledata = "#$1(#$2) - #{title} 解説"
     elsif /<p class="source">出典: <a href="(.*)">(.*)<\/a><\/p>/ === line
       sourcedata = $1
       source_urldata = $2
+    elsif /<p class="source">筆者: (.*)<\/p>/ === line
+      writerdata = $1
     elsif /<div class="img-tableau">/ === line
       state = :img
       ret << "<div class=\"img-tableau\">\n"
@@ -98,6 +105,7 @@ def conv(str, title)
   ret0 << "title: #{titledata.inspect}\n"
   ret0 << "source: #{sourcedata.inspect}\n" if sourcedata
   ret0 << "source_url: #{source_urldata.inspect}\n" if source_urldata
+  ret0 << "writer: #{writerdata.inspect}\n" if writerdata
   ret0 << "timelimit: #{timedata.inspect}\n" if timedata
   ret0 << "memlimit: #{memdata.inspect}\n" if memdata
   ret0 << "---\n\n"
@@ -111,10 +119,17 @@ dir2 = "/home/qnighy/Dropbox/Public/sptr/html"
 
 Dir.new(dir2).each do|d|
   case d
-  when /AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjoi(....)-(day.)-(.*)-prob[.]html/
+  # when /joi(....)-(day.)-(.*)-prob[.]html/
+  #   (year,day,prob) = [$1,$2,$3]
+  #   str = File.read("#{dir2}/joi#{year}-#{day}-#{prob}-prob.html")
+  #   File.open("#{dir1}/joi#{year}-#{day}-#{prob}-problem.textile", "w") do|file|
+  #     file.print(conv(str, "joi#{year}-#{day}"))
+  #   end
+  when /joi(....)-(day.)-(.*)-comment[.]html/
     (year,day,prob) = [$1,$2,$3]
-    str = File.read("#{dir2}/joi#{year}-#{day}-#{prob}-prob.html")
-    File.open("#{dir1}/joi#{year}-#{day}-#{prob}-problem.textile", "w") do|file|
+    p [year,day,prob]
+    str = File.read("#{dir2}/joi#{year}-#{day}-#{prob}-comment.html")
+    File.open("#{dir1}/joi#{year}-#{day}-#{prob}-comment.textile", "w") do|file|
       file.print(conv(str, "joi#{year}-#{day}"))
     end
   end

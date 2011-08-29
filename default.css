@@ -59,11 +59,24 @@ p {
     text-align: right;
 }
 
+table {
+    border: #999999 1px solid;
+}
 table td {
     padding: 3px;
 }
+table th {
+    background-color: #EEEEEE;
+}
 table tr:nth-child(odd) td {
     background-color: #EEEEEE;
+}
+table tr td {
+    vertical-align: top;
+}
+table tr td samp {
+    background-color: #DDDDDD;
+    vertical-align: top;
 }
 
 .img-tableau {
