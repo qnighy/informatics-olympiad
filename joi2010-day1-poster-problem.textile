@@ -1,0 +1,69 @@
+---
+layout: default
+title: "JOI Poster(JOI ポスター) - joi2010-day1"
+source: "http://www.ioi-jp.org/camp/2010/2010-sp-tasks/index.html"
+source_url: "第9回日本情報オリンピック 春季トレーニング合宿"
+timelimit: "1秒"
+memlimit: "64MB"
+---
+
+情報オリンピック日本委員会では, 今年の日本情報オリンピック(JOI)の合宿を宣伝するために, ポスターを作ることになった. JOIのロゴをモチーフにしたポスターが作られた.
+
+<div class="img-tableau">
+  <img src="joi2010-day1-poster-joilogo.png" width="245" height="245" alt="[JOI Logo]"><br>
+  JOIのロゴ
+</div>
+
+ポスターには, 2^N × 2^N 個のアルファベットを正方形の形に印刷する.
+
+N&ge;1 のときには, 2^N × 2^N の正方形を4 個の2^(N-1) × 2^(N-1) の正方形に分け, 左上の正方形にはアルファベットのJを, 右上の正方形にはアルファベットのOを, 左下の正方形にはアルファベットのIを印刷する. また, 右下の正方形には, 大きさが2^(N-1) × 2^(N-1) のポスターを印刷する. N = 0 のときには, アルファベットのJの一文字からなる大きさが1 × 1 のポスターを印刷する.
+
+以下に, N = 3 の場合の，大きさが8 × 8 のポスターに印刷するアルファベットを表す.
+
+<pre>JJJJOOOO
+JJJJOOOO
+JJJJOOOO
+JJJJOOOO
+IIIIJJOO
+IIIIJJOO
+IIIIIIJO
+IIIIIIIJ</pre>
+
+↑N = 3のポスター
+
+完成したポスターのK行目に印刷間違いが見つかった.
+
+今年の日本情報オリンピックの合宿はすでに始まっている. 再度ポスターの印刷を業者に依頼するには十分な時間がない. そのため, 正しいK 行目をポスターに貼り付けることによって, 対応することにした.
+
+h2. 課題(TASK)
+
+入力として整数NとKが与えられたときに, 大きさが2^N × 2^N のポスターのK行目を出力するプログラムを作成せよ.
+
+h2. 制限(CONSTRAINTS)
+
+|0 &le; N &le; 20|ポスターの大きさ|
+|1 &le; K &le; 2^N|出力するポスターの行|
+
+h2. 入力(INPUT)
+
+標準入力から以下を読み込め. 入力は1行からなり, ポスターの大きさを表す整数Nと出力する行を表すKが空白区切りで書かれている.
+
+h2. 出力(OUTPUT)
+
+標準出力に, 一行で, 大きさが 2^N × 2^N のポスターのK行目を出力せよ。
+
+h2. 採点基準(GRADING)
+
+50点分のテストグループにおいて, Nは10以下である.
+
+h2. 入出力例(EXAMPLE)
+
+|_. 入力例(Sample Input)|_. 出力例(Sample Output)|
+|<samp>1 1</samp>|<samp>JO</samp>|
+
+|_. 入力例(Sample Input)|_. 出力例(Sample Output)|
+|<samp>2 4</samp>|<samp>IIIJ</samp>|
+
+|_. 入力例(Sample Input)|_. 出力例(Sample Output)|
+|<samp>3 7</samp>|<samp>IIIIIIJO</samp>|
+

@@ -1,0 +1,65 @@
+---
+layout: default
+title: "DNA synthesizer(DNAの合成) - joi2010-day2"
+source: "http://www.ioi-jp.org/camp/2010/2010-sp-tasks/index.html"
+source_url: "第9回日本情報オリンピック 春季トレーニング合宿"
+timelimit: "1秒"
+memlimit: "64MB"
+---
+
+A,T,G,CからなるDNA鎖が2本あるとき, 一方の先頭と, 他方の末尾の部分に1文字以上の連続する共通部分を持つものをつなげて新しいDNA鎖を合成する方法が開発された. このとき共通部分は一つにまとめられる. たとえば, TTTATGC と ATGCAAA は, 前者の末尾と後者の先頭に共通部分ATGCを持つので, つなげてTTTATGCAAAを合成できる. また, AAA を2つ用いて，AAAA とAAAAA のどちらも合成することができる. 今, 新薬開発のために, 研究室にあるいくつかの素DNA鎖から, あるDNA鎖を合成したい.
+
+h2. 課題(TASK)
+
+研究室にはN種類の素DNA鎖がある. 上記の方法で素DNA鎖をつなぎあわせて目的のDNA鎖を合成するとき, 最小で何本の素DNA 鎖が必要となるかを求めるプログラムを作成せよ. ただし, 素DNA鎖の備蓄には余裕があるので, 同じ種類の素DNA鎖を何度でも使うことができる. また, 全ての採点データにおいて, 目的のDNA鎖を得る素DNA鎖の組み合わせが存在する.
+
+h2. 制限(CONSTRAINTS)
+
+素DNA鎖の種類数Nは50,000以下である.
+
+合成したいDNA鎖の長さは150,000以下である.
+
+素DNA鎖の長さは20以下である.
+
+h2. 入力(INPUT)
+
+標準入力から以下の入力を読み込め.
+
+* 1行目には整数N が書かれている.
+* 2行目には, A,T,G,C からなる文字列が書かれており, 目的のDNA鎖を表す.
+* 続くN行は, 1行につき1つの A,T,G,C からなる文字列が書かれており, それぞれ1つの素DNA鎖を表す. 重複する素DNA鎖は存在しない.
+
+h2. 出力(OUTPUT)
+
+標準出力に必要となる素DNAの本数の最小値を表す1つの整数を出力せよ.
+
+h2. 採点基準(GRADING)
+
+30点分のテストグループにおいて, Nと, 合成したいDNA 鎖の長さは共に1,000を超えない.
+
+h2. 入出力例(EXAMPLE)
+
+|_. 入力例(Sample Input)|_. 出力例(Sample Output)|
+|<samp>5
+ATATATGCCCAT
+ATAT
+ATG
+GCCC
+GCCCAT
+CAT</samp>|<samp>4</samp>|
+
+同じ素DNA鎖を何度も使って良いことに注意せよ.
+
+|_. 入力例(Sample Input)|_. 出力例(Sample Output)|
+|<samp>1
+AAAAAAAAAA
+AAA</samp>|<samp>5</samp>|
+
+AAAを2つ用いて, AAAAとAAAAAのどちらも合成することができる.
+
+|_. 入力例(Sample Input)|_. 出力例(Sample Output)|
+|<samp>2
+ATATATATAT
+ATA
+TAT</samp>|<samp>5</samp>|
+
