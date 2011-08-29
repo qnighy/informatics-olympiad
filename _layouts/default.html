@@ -13,6 +13,28 @@
     <aside>情報オリンピック 問題と解説 &gt;&gt; <a href="index.html">ホーム</a> <a href="problems.html">問題一覧</a></aside>
     <div id="main">
       <h1> {{ page.title }}</h1>
+
+      {% if page.source %}
+      {% if page.source_url %}
+      <p class="source">出典: <cite><a href="{{ page.source_url }}">{{ page.source }}</a></cite></p>
+      {% else %}
+      <p class="source">出典: <cite>{{ page.source }}</cite></p>
+      {% endif %}
+      {% endif %}
+
+      {% if page.writer %}
+      <p class="source">筆者: {{ page.writer }}</p>
+      {% endif %}
+
+      {% if page.translator %}
+      <p class="source">訳者: {{ page.translator }}</p>
+      {% endif %}
+
+      {% if page.timelimit and page.memorylimit %}
+      <p class="timemem">時間制限: <strong>{{ page.timelimit }}</strong></p>
+      <p class="timemem">メモリ制限: <strong>{{ page.memorylimit }}</strong></p>
+      {% endif %}
+
       {{ content }}
     </div>
   </body>
