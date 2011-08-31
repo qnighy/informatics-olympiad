@@ -1,0 +1,7 @@
+---
+layout: default
+title: Tips
+---
+
+* "JOI用語集":joi-glossary.html
+* "競技プログラミングで陥りやすい言語仕様の罠":tip-language-trap.html
