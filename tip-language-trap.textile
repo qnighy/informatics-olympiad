@@ -61,18 +61,21 @@ int _end = 0; // gccが定義するシンボル
 これによってプログラムが非常に意味不明な挙動をし、原因を把握するのに時間がかかったケースがあったので、ぜひ気をつけて頂きたい。
 
 h2. scanfの罠(1)
+
 {% highlight cpp %}
 scanf("%c", &c); // 空白も一文字とみなすから注意！
 scanf("%s", s); // 空白の直前で打ち止めするので注意！
 {% endhighlight %}
 
 次のようにするといいことが多い。
+
 {% highlight cpp %}
 scanf(" %c", &c); // 空白を飛ばしてから読む
 scanf("%[a-zA-Z 0-9_]", s); // アルファベットと数字とアンダースコアとスペースが出てくる間は読み込む
 {% endhighlight %}
 
 h2. scanfの罠(2)
+
 {% highlight cpp %}
 double d;
 float f;
@@ -80,11 +83,13 @@ scanf("%f%lf", &f, &d); // fはfloat, dはdouble
 printf("%f%f", f, d); // fはdouble (floatは自動でdoubleに変換される。)
 printf("%lf", d); // これはC99より前は非標準
 {% endhighlight %}
+
 この非対称な挙動はあまり知られていない。最後に述べた非標準な挙動がサポートされることが多いからである。
 
 h2. strlenはO(n)
 
 Cの文字列の仕様から明らかではあるが、strlenはO(n)である。
+
 {% highlight cpp %}
 for(int i = 0; i < strlen(s); i++) {} // オーダー的に危険
 {% endhighlight %}
