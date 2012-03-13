@@ -1,0 +1,59 @@
+---
+layout: default
+title: "Deciphering(解読) - joi2011-day3"
+source: "第10回日本情報オリンピック 日本代表選手選考会"
+source_url: "http://www.ioi-jp.org/camp/2011/2011-sp-tasks/index.html"
+timelimit: "0.5秒"
+memlimit: "64MB"
+---
+
+あなたは A から Z の文字で書かれた IOI 国の機密文書を手に入れた．この機密文書の原文は IOI 語で書かれている．機密文書からいくつかの文字（<var>0</var> 文字でもよい）を消すことで原文が得られる．
+
+IOI 語の文章は <var>1</var> 文字以上からなる文字列であり，相異なる <var>M</var> 個の次のような規則を満たす：
+
+* 規則 <var>i</var> <var>(1 \leq i \leq M)</var>：文字 <var>A_i</var> の直後に文字 <var>B_i</var> は来ない．
+
+与えられた機密文書の原文として考えられるものの個数を <var>10\,000\,000</var> で割った余りを求めよ．ただし，消し方が異なっても同じ原文であれば <var>1</var> つと数える．
+
+h2. 課題
+
+機密文書から考えられる原文の個数を <var>10\,000\,000</var> で割った余りを求めよ．
+
+h2. 制限
+
+| <var>1 \leq L \leq 300\,000</var> | 機密文書の長さ |
+| <var>0 \leq M \leq 26 \times 26</var> | IOI 語の規則の個数 |
+
+h2. 入力
+
+標準入力から以下の入力を読み込め．
+
+* <var>1</var> 行目には整数 <var>L</var> が書かれており，機密文書の長さが <var>L</var> であることを表す．
+* <var>2</var> 行目には機密文書が書かれている．これは長さ <var>L</var> の A から Z までの文字からなる文字列である．
+* <var>3</var> 行目には整数 <var>M</var> が書かれており，IOI 語の規則の個数が <var>M</var> であることを表す．
+* 続く <var>M</var> 行には IOI 語の規則の情報が書かれている．<var>i + 3</var> 行目 <var>(1 \leq i \leq M)</var> には，規則 <var>i</var> を表す A から Z までの文字 <var>A_i, B_i</var> が空白を区切りとして書かれている．<var>A_i = A_j</var> かつ <var>B_i = B_j</var> なる規則 <var>j (j \neq i)</var> は存在しない．
+
+h2. 出力
+
+標準出力に考えられる原文の個数を <var>10\,000\,000</var> で割った余りを <var>1</var> 行で出力せよ．
+
+h2. 採点基準
+
+* 採点用データのうち，配点の <var>10%</var> 分については，<var>L \leq 15</var> を満たす．
+* 採点用データのうち，配点の <var>40%</var> 分については，<var>L \leq 5\,000</var> を満たす．
+
+h2. 入出力の例
+
+|_. 入力例 1|_. 出力例 1|
+|<samp>5
+JOIOI
+1
+I O</samp>|<samp>15</samp>|
+
+この入力例では，<var>\rm{I}, \rm{II}, \rm{J}, \rm{JI}, \rm{JII}, \rm{JO}, \rm{JOI}, \rm{JOII}, \rm{JOO}, \rm{JOOI}, \rm{O}, \rm{OI}, \rm{OII}, \rm{OO}, \rm{OOI} が考えられる原文である．
+
+|_. 入力例 2|_. 出力例 2|
+|<samp>26
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0</samp>|<samp>7108863</samp>|
+

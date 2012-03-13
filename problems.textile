@@ -67,9 +67,9 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2011-day2|guess|数当て(Guess Them All)| "問題":joi2011-day2-guess-problem.html | "解説":joi2011-day2-guess-comment.html |
 |2011-day2|keycards|カードキー(Keycards)| "問題":joi2011-day2-keycards-problem.html | "解説":joi2011-day2-keycards-comment.html |
 |2011-day2|shiritori|しりとり(Shiritori)| "問題":joi2011-day2-shiritori-problem.html | "解説":joi2011-day2-shiritori-comment.html |
-|2011-day3|deciphering|解読(Deciphering)|問題| "解説":joi2011-day3-deciphering-comment.html |
-|2011-day3|report|報告(Report)|問題| "解説":joi2011-day3-report-comment.html |
-|2011-day3|ufo|UFOの飛行場(UFO)|問題| "解説":joi2011-day3-ufo-comment.html |
+|2011-day3|deciphering|解読(Deciphering)| "問題":joi2011-day3-deciphering-problem.html | "解説":joi2011-day3-deciphering-comment.html |
+|2011-day3|report|報告(Report)| "問題":joi2011-day3-report-problem.html | "解説":joi2011-day3-report-comment.html |
+|2011-day3|ufo|UFOの飛行場(UFO)|"問題":joi2011-day3-ufo-problem.html | "解説":joi2011-day3-ufo-comment.html |
 |2011-day4|apples|リンゴの出荷(Apples)|問題| "解説":joi2011-day4-apples-comment.html |
 |2011-day4|bookshelf|本棚(Bookshelf)|問題| "解説":joi2011-day4-bookshelf-comment.html |
 |2011-day4|ioi|国際情報オリンピック(IOI)|問題| "解説":joi2011-day4-ioi-comment.html |

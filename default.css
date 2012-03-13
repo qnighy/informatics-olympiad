@@ -79,6 +79,13 @@ table tr td samp {
     vertical-align: top;
 }
 
+var table {
+    border:none;
+}
+var table td {
+    background-color: transparent !important;
+}
+
 .img-tableau {
     border: silver 1px solid;
     padding: 10px;
