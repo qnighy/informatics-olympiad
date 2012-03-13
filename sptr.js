@@ -6,6 +6,7 @@ head.js("jquery-1.5.1.min.js", function() {
     $(".if-go1").attr("disabled", "disabled");
   });
 });
+head.js("varmath.js");
 
 /* head.js("jquery-1.5.1.min.js", "jquery.selection-min.js", function() {
   $("pre").click(function() {
