@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "SimRoad(シムロード) - joi2010-day3"
-source: "http://www.ioi-jp.org/camp/2010/2010-sp-tasks/index.html"
-source_url: "第9回日本情報オリンピック 春季トレーニング合宿"
+source: "第9回日本情報オリンピック 春季トレーニング合宿"
+source_url: "http://www.ioi-jp.org/camp/2010/2010-sp-tasks/index.html"
 ---
 
 JOI社はシムロードというシミュレーションゲームを販売している. このゲームでは, プレイヤーは舞台となる国の統治者となり, その国を繁栄させるべく様々な操作を行う.

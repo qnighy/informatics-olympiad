@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Stamps(判子) - joi2009-day1"
-source: "http://www.ioi-jp.org/camp/2009/2009-sp-tasks/index.html"
-source_url: "第8回日本情報オリンピック 春季トレーニング合宿"
+source: "第8回日本情報オリンピック 春季トレーニング合宿"
+source_url: "http://www.ioi-jp.org/camp/2009/2009-sp-tasks/index.html"
 timelimit: "1秒"
 memlimit: "64MB"
 ---

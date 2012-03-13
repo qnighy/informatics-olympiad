@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Banner(横断幕) - joi2011-day1"
-source: "http://www.ioi-jp.org/camp/2011/2011-sp-tasks/index.html"
-source_url: "第10回日本情報オリンピック 日本代表選手選考会"
+source: "第10回日本情報オリンピック 日本代表選手選考会"
+source_url: "http://www.ioi-jp.org/camp/2011/2011-sp-tasks/index.html"
 timelimit: "1.5秒"
 memlimit: "64MB"
 ---
@@ -68,4 +68,3 @@ h2. 入出力の例
 * (2, 3), (3, 3), (3, 4), (2, 4)
 
 の12 通りが存在するので12 を出力する．
-
