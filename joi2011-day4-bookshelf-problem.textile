@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Apples(リンゴの出荷) - joi2011-day4"
+title: "Bookshelf(本棚) - joi2011-day4"
 source: "第10回日本情報オリンピック 日本代表選手選考会"
 source_url: "http://www.ioi-jp.org/camp/2011/2011-sp-tasks/index.html"
 timelimit: "1秒"
