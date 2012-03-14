@@ -41,9 +41,9 @@
       <p class="source">訳者: {{ page.translator }}</p>
       {% endif %}
 
-      {% if page.timelimit and page.memorylimit %}
+      {% if page.timelimit and page.memlimit %}
       <p class="timemem">時間制限: <strong>{{ page.timelimit }}</strong></p>
-      <p class="timemem">メモリ制限: <strong>{{ page.memorylimit }}</strong></p>
+      <p class="timemem">メモリ制限: <strong>{{ page.memlimit }}</strong></p>
       {% endif %}
 
       {{ content }}
