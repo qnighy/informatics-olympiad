@@ -70,7 +70,7 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2011-day3|deciphering|解読(Deciphering)| "問題":joi2011-day3-deciphering-problem.html | "解説":joi2011-day3-deciphering-comment.html |
 |2011-day3|report|報告(Report)| "問題":joi2011-day3-report-problem.html | "解説":joi2011-day3-report-comment.html |
 |2011-day3|ufo|UFOの飛行場(UFO)|"問題":joi2011-day3-ufo-problem.html | "解説":joi2011-day3-ufo-comment.html |
-|2011-day4|apples|リンゴの出荷(Apples)|問題| "解説":joi2011-day4-apples-comment.html |
-|2011-day4|bookshelf|本棚(Bookshelf)|問題| "解説":joi2011-day4-bookshelf-comment.html |
-|2011-day4|ioi|国際情報オリンピック(IOI)|問題| "解説":joi2011-day4-ioi-comment.html |
-|2011-day4|orienteering|オリエンテーリング(Oriengeering)|問題| "解説":joi2011-day4-orienteering-comment.html |
+|2011-day4|apples|リンゴの出荷(Apples)| "問題":joi2011-day4-apples-problem.html | "解説":joi2011-day4-apples-comment.html |
+|2011-day4|bookshelf|本棚(Bookshelf)| "問題":joi2011-day4-bookshelf-problem.html | "解説":joi2011-day4-bookshelf-comment.html |
+|2011-day4|ioi|国際情報オリンピック(IOI)| "問題":joi2011-day4-ioi-problem.html | "解説":joi2011-day4-ioi-comment.html |
+|2011-day4|orienteering|オリエンテーリング(Orienteering)| "問題":joi2011-day4-orienteering-problem.html | "解説":joi2011-day4-orienteering-comment.html |
