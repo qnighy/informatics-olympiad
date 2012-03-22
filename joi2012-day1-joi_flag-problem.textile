@@ -1,0 +1,135 @@
+---
+layout: default
+title: "JOI Flag(日本情報オリンピック旗) - joi2012-day1"
+source: "第11回日本情報オリンピック 日本代表選手選考会"
+source_url: "http://www.ioi-jp.org/camp/2012/2012-sp-tasks/index.html"
+timelimit: "1.5秒"
+memlimit: "64MB"
+---
+
+あなたは，日本情報オリンピックの新しい旗として，レベル <var>K</var> の *JOI Flag* を作ることにした．
+
+ただし，
+
+* レベル 0 の *JOI Flag* とは，<var>1 \times 1</var> のマス目からなる旗で，J, O, I のいずれかの文字が書かれたものである．
+* 整数 <var>m &gt; 0</var> に対し，レベル <var>m</var> の *JOI Flag* とは，<var>2^m \times 2^m</var> のマス目からなる旗で，各マスに J, O, I のいずれかの文字が書かれたもののうち，次の条件を満たすものである：マス目全体を <var>2^{m-1} \times 2^{m-1}</var> の正方形 4 つに分けたとき，レベル <var>m-1</var> の *JOI Flag* ，J の書かれたマスのみからなる部分，O の書かれたマスのみからなる部分，I の書かれたマスのみからなる部分の 4 つの部分に分かれる．
+
+例えば，
+<pre>
+OIJJ
+JJJJ
+OOII
+OOII
+</pre>
+
+は，レベル 2 の *JOI Flag* である．また，
+<pre>
+IIIIIIOO
+IIIIIIOO
+IIIIJOJJ
+IIIIOIJJ
+JJJJOOOO
+JJJJOOOO
+JJJJOOOO
+JJJJOOOO
+</pre>
+は，レベル 3 の *JOI Flag* である．
+
+あなたの手元には，いくつかのマス目に J, O, I のいずれかの文字が書きこまれた <var>2^K \times 2^K</var> の旗がある．
+
+あなたは，この旗にいくつかの文字を書き加えたり，既に旗に書かれているいくつかの文字を修正したりして，レベル <var>K</var> の *JOI Flag* を完成させることにした．文字が書かれていないマスにはコスト 0 で文字を書けるが，文字が書かれたマスの文字を書き換えるにはコスト 1 がかかる．
+
+レベル <var>K</var> の *JOI Flag* を完成させるのに必要なコストの最小値を求めたい．
+
+h2. 課題
+
+あなたの手元にある旗の情報が与えられたとき，レベル <var>K</var> の *JOI Flag* を完成させるのに必要なコストの最小値を求めるプログラムを作成せよ．
+
+h2. 制限
+
+| <var>1 \leqq K \leqq 30</var> | *JOI Flag* のレベル |
+| <var>1 \leqq N \leqq 1\,000</var> | *JOI Flag* に書き込まれている文字の個数 |
+| <var>1 \leqq X_i \leqq 2^K</var> | <var>i</var> 番目の文字の書かれている列番号 |
+| <var>1 \leqq Y_i \leqq 2^K</var> | <var>i</var> 番目の文字の書かれている行番号 |
+|\2. <var>C_i</var> は J, O, I のいずれかである． |
+|\2. 組 <var>(X_i, Y_i)</var> はすべて異なる．|
+
+h2. 入力
+
+標準入力から以下の入力を読み込め．
+* 1 行目には整数 <var>K, N</var> が空白を区切りとして書かれている．<var>K</var> は *JOI Flag* のレベルを，<var>N</var> は文字の書かれたマス目の個数をそれぞれ表す．文字には <var>1, 2, …, N</var> の番号がつけられている．
+* 続く <var>N</var> 行には文字の情報が書かれている．<var>i+1</var> 行目には <var>X_i, Y_i, C_i</var> が空白を区切りとして書かれている．これは，文字 <var>C_i</var> が左から <var>X_i</var> 列目，上から <var>Y_i</var> 行目に書かれていることを表す．
+
+h2. 出力
+
+標準出力に，レベル <var>K</var> の *JOI Flag* を作るのに必要なコストの最小値を表す整数を 1 行で出力せよ．
+
+h2. 採点基準
+
+採点用データのうち，配点の 40% 分については，<var>K \leqq 10</var> を満たす．
+
+h2. 入出力の例
+
+|_. 入力例1|_. 出力例1|
+|<samp>2 10
+2 2 J
+3 3 I
+1 3 I
+1 1 O
+3 2 J
+2 1 I
+4 1 O
+3 4 I
+4 4 O
+2 3 O</samp>|<samp>3</samp>|
+
+この入力は，
+<pre>
+==OI-O==
+==-JJ-==
+==IOI-==
+==--IO==
+</pre>
+という旗を表す．ただし，何も書かれていないマス目を - で表すとする。
+
+これはコスト 3 で
+<pre>
+OIJJ
+JJJJ
+OOII
+OOII
+</pre>
+にすることができる．
+
+|_. 入力例2|_. 出力例2|
+|<samp>4 30
+16 14 J
+2 8 O
+10 9 J
+10 13 I
+6 6 O
+11 14 I
+1 2 I
+3 2 O
+3 10 O
+1 12 I
+4 11 I
+9 5 J
+15 1 O
+12 4 I
+16 5 J
+10 7 J
+3 8 J
+4 10 I
+4 7 I
+2 11 I
+2 12 O
+15 5 J
+15 7 J
+6 9 J
+5 7 O
+14 5 J
+12 11 J
+15 10 O
+13 16 I
+13 11 I</samp>|<samp>9</samp>|

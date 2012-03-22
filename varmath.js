@@ -37,6 +37,8 @@ function varmath_char(a, c) {
 	if (c == '>' || c == '＞') return a.state(2) + '&gt;';
 	if (c == '≤') return a.state(2) + '≤';
 	if (c == '≥') return a.state(2) + '≥';
+	if (c == '≦') return a.state(2) + '≦';
+	if (c == '≧') return a.state(2) + '≧';
 	if (c == '∈') return a.state(2) + '∈';
 	if (c == '∋') return a.state(2) + '∋';
 	if (c == '≠') return a.state(2) + '≠';
@@ -79,6 +81,8 @@ function varmath_next_char(a) {
 			if (key == 'neq') return varmath_char(a, '≠');
 			if (key == 'leq') return varmath_char(a, '≤');
 			if (key == 'geq') return varmath_char(a, '≥');
+			if (key == 'leqq') return varmath_char(a, '≦');
+			if (key == 'geqq') return varmath_char(a, '≧');
 			if (key == 'in') return varmath_char(a, '∈');
 			if (key == 'ni') return varmath_char(a, '∋');
 			if (key == 'times') return varmath_char(a, '×');

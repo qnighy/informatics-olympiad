@@ -74,3 +74,6 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2011-day4|bookshelf|本棚(Bookshelf)| "問題":joi2011-day4-bookshelf-problem.html | "解説":joi2011-day4-bookshelf-comment.html |
 |2011-day4|ioi|国際情報オリンピック(IOI)| "問題":joi2011-day4-ioi-problem.html | "解説":joi2011-day4-ioi-comment.html |
 |2011-day4|orienteering|オリエンテーリング(Orienteering)| "問題":joi2011-day4-orienteering-problem.html | "解説":joi2011-day4-orienteering-comment.html |
+|2012-day1|building2|ビルの飾り付け 2| "問題":joi2012-day1-building2-problem.html | "PDF":http://iwi.tc/talks/contests/joi_building2.pdf |
+|2012-day1|fish|魚| "問題":joi2012-day1-fish-problem.html | 解説 |
+|2012-day1|joi_flag|日本情報オリンピック旗| "問題":joi2012-day1-joi_flag-problem.html | "slideshare":http://www.slideshare.net/JAPLJ/joi-flag |
