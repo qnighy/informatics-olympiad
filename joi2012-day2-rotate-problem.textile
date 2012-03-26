@@ -1,0 +1,76 @@
+---
+layout: default
+title: "Rotate(回転) - joi2012-day2"
+source: "第11回日本情報オリンピック 日本代表選手選考会"
+source_url: "http://www.ioi-jp.org/camp/2012/2012-sp-tasks/index.html"
+timelimit: "2秒"
+memlimit: "64MB"
+---
+
+h2. 課題
+
+正方形のマスが縦 <var>N</var> 行，横 <var>N</var> 列に <var>N \times N</var> 個敷き詰められている盤面がある．上から <var>i</var> 番目，左から <var>j</var> 番目のマスをマス <var>(i, j)</var> と呼ぶ．マス <var>(i, j)</var> には文字 <var>A_{ij}</var> が書かれている．
+
+ある正方形領域を反時計回りに 90 度回転させることを <var>Q</var> 回繰り返す．<var>k</var> 回目の回転は，マス <var>(I_k, J_k)</var> を最も左上のマスとして含む <var>S_k \times S_k</var> 個のマスを含む正方形領域を回転する．
+
+最終的な盤面を求め出力せよ．
+
+h2. 制限
+
+| <var>2 \leqq N \leqq 1\,000 </var> | 盤面のサイズ |
+| <var>1 \leqq Q \leqq 2\,000 </var> | 回転の回数 |
+
+h2. 入力
+
+標準入力から以下の入力を読み込め．
+* 1 行目には整数 <var>N, Q</var> が空白を区切りとして書かれている．<var>N</var> は盤面のサイズを，<var>Q</var> は回転の回数を表す．
+* 続く <var>N</var> 行には，盤面に最初に書かれている文字が与えられる．これらの行の <var>i</var> 行目には長さ <var>N</var> の文字列が書かれている．この文字列の <var>j</var> 文字目は <var>A_{ij}</var> を表す．文字列はアルファベットの小文字のみを含む．
+* 続く <var>Q</var> 行には，回転の指示が書かれている．これらの行の <var>k</var> 行目には整数 <var>I_k, J_k, S_k (1 \leqq I_k \leqq N - S_k +1,\, 1 \leqq J_k \leqq N - S_k + 1,\, 2 \leqq S_k \leqq N)</var> が空白を区切りとして書かれている．これは，<var>k</var> 回目の回転はマス <var>(I_k, J_k)</var> を最も左上のマスとして含む <var>S_k \times S_k</var> 個のマスを含む正方形領域を回転することを表す．
+
+h2. 出力
+
+標準出力に，最終的な盤面を <var>N</var> 行で出力せよ．すなわち，<var>i</var> 行目に，<var>N</var> 文字の文字列であって，<var>j</var> 番目の文字が最終的な盤面の <var>(i, j)</var> に書かれている文字となっているものを出力せよ．
+
+h2. 採点基準
+
+採点用データのうち，配点の 10% 分については，<var>N \leqq 100, Q \leqq 100</var>を満たす．
+
+h2. 入出力の例
+
+|_. 入力例1|_. 出力例1|
+|<samp>4 1
+abcd
+efgh
+ijkl
+mnop
+2 2 2</samp>|<samp>abcd
+egkh
+ifjl
+mnop</samp>|
+
+この入力は下のような盤面を表す．
+
+<pre>
+abcd
+efgh
+ijkl
+mnop
+</pre>
+
+1 つ目の回転の指示は，「マス <var>(2, 2)</var> を最も左上のマスとして含む <var>2 \times 2</var> 個のマスを含む正方形領域を回転する」というものである．つまり，
+
+<pre>
+fg
+jk
+</pre>
+
+を反時計回りに 90 度回転させ，
+
+<pre>
+abcd
+egkh
+ifjl
+mnop
+</pre>
+
+を得る．
