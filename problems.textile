@@ -75,5 +75,11 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2011-day4|ioi|国際情報オリンピック(IOI)| "問題":joi2011-day4-ioi-problem.html | "解説":joi2011-day4-ioi-comment.html |
 |2011-day4|orienteering|オリエンテーリング(Orienteering)| "問題":joi2011-day4-orienteering-problem.html | "解説":joi2011-day4-orienteering-comment.html |
 |2012-day1|building2|ビルの飾り付け 2| "問題":joi2012-day1-building2-problem.html | "PDF":http://iwi.tc/talks/contests/joi_building2.pdf |
-|2012-day1|fish|魚| "問題":joi2012-day1-fish-problem.html | 解説 |
+|2012-day1|fish|魚| "問題":joi2012-day1-fish-problem.html | 解説:omeometo |
 |2012-day1|joi_flag|日本情報オリンピック旗| "問題":joi2012-day1-joi_flag-problem.html | "slideshare":http://www.slideshare.net/JAPLJ/joi-flag |
+|2012-day2|broadcasting|テレビ放送| "問題":joi2012-day2-broadcasting-problem.html | "slideshare":http://www.slideshare.net/qnighy/joi2012spday2broadcasting |
+|2012-day2|constellation|星座| "問題":joi2012-day2-constellation-problem.html | 解説:nai__ |
+|2012-day2|rotate|回転| "問題":joi2012-day2-rotate-problem.html | "PDF":http://iwi.tc/talks/contests/joi_rotate.pdf |
+|2012-day3|fortune_telling|占い| "問題":joi2012-day3-fortune_telling-problem.html | 解説:__m3n |
+|2012-day3|kangaroo|カンガルー| "問題":joi2012-day3-kangaroo-problem.html | 解説:rng_58 |
+|2012-day3|sokoban|倉庫番| "問題":joi2012-day3-sokoban-problem.html | "PDF":http://hos.ac/slides/20120322_joi_sokoban.pdf |
