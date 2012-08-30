@@ -47,7 +47,7 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2009-day3|logo|ロゴマーク(Logo)| "問題":joi2009-day3-logo-problem.html |解説|
 |2009-day4|distribution|冊子の配布(Distribution)| "問題":joi2009-day4-distribution-problem.html |解説|
 |2009-day4|chopsticks|塗り箸(Chopsticks)| "問題":joi2009-day4-chopsticks-problem.html |解説|
-|2009-day4|starry_sky|星空(Starry Sky)| "問題":joi2009-day4-starry_sky-problem.html |解説|
+|2009-day4|starry_sky|星空(Starry Sky)| "問題":joi2009-day4-starry_sky-problem.html | "解説":joi2009-day4-starry_sky-comment.html |
 |2010-day1|poster|JOIポスター(JOI Poster)| "問題":joi2010-day1-poster-problem.html | "解説":joi2010-day1-poster-comment.html |
 |2010-day1|sengoku|戦国時代(Sengoku)| "問題":joi2010-day1-sengoku-problem.html | "解説":joi2010-day1-sengoku-comment.html |
 |2010-day1|stairs|階段(Stairs)| "問題":joi2010-day1-stairs-problem.html | "解説":joi2010-day1-stairs-comment.html |
