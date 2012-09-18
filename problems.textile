@@ -42,7 +42,7 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2009-day2|abduction|誘拐(Abduction)| "問題":joi2009-day2-abduction-problem.html |解説|
 |2009-day2|advertisement|宣伝(Advertisement)| "問題":joi2009-day2-advertisement-problem.html |解説|
 |2009-day2|contest|コンテスト(Contest)| "問題":joi2009-day2-contest-problem.html |解説|
-|2009-day3|territory|縄張り(Territory)| "問題":joi2009-day3-territory-problem.html |解説|
+|2009-day3|territory|縄張り(Territory)| "問題":joi2009-day3-territory-problem.html | "解説":joi2009-day3-territory-comment.html |
 |2009-day3|ski|スキー(Ski)| "問題":joi2009-day3-ski-problem.html |解説|
 |2009-day3|logo|ロゴマーク(Logo)| "問題":joi2009-day3-logo-problem.html |解説|
 |2009-day4|distribution|冊子の配布(Distribution)| "問題":joi2009-day4-distribution-problem.html |解説|
@@ -81,7 +81,7 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2012-day2|constellation|星座| "問題":joi2012-day2-constellation-problem.html | 解説:nai__ |
 |2012-day2|rotate|回転| "問題":joi2012-day2-rotate-problem.html | "PDF":http://iwi.tc/talks/contests/joi_rotate.pdf |
 |2012-day3|fortune_telling|占い| "問題":joi2012-day3-fortune_telling-problem.html | 解説:__m3n |
-|2012-day3|kangaroo|カンガルー| "問題":joi2012-day3-kangaroo-problem.html | 解説:rng_58 |
+|2012-day3|kangaroo|カンガルー| "問題":joi2012-day3-kangaroo-problem.html | "PDF":http://ringos.gozaru.jp/kangaroo.pdf |
 |2012-day3|sokoban|倉庫番| "問題":joi2012-day3-sokoban-problem.html | "PDF":http://hos.ac/slides/20120322_joi_sokoban.pdf |
 |2012-day4|chinese|中華料理| "問題":joi2012-day4-chinese-problem.html | "slideshare":http://www.slideshare.net/utatakiyoshi/joiday4chinese |
 |2012-day4|copypaste|コピー＆ペースト| "問題":joi2012-day4-copypaste-problem.html | "PDF":http://hos.ac/slides/20120323_joi_copypaste.pdf |
