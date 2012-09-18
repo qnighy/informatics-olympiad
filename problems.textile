@@ -81,7 +81,7 @@ JOI(Japan Olympiad in Informatics) - 日本情報オリンピック
 |2012-day2|constellation|星座| "問題":joi2012-day2-constellation-problem.html | 解説:nai__ |
 |2012-day2|rotate|回転| "問題":joi2012-day2-rotate-problem.html | "PDF":http://iwi.tc/talks/contests/joi_rotate.pdf |
 |2012-day3|fortune_telling|占い| "問題":joi2012-day3-fortune_telling-problem.html | 解説:__m3n |
-|2012-day3|kangaroo|カンガルー| "問題":joi2012-day3-kangaroo-problem.html | "PDF":http://ringos.gozaru.jp/kangaroo.pdf |
+|2012-day3|kangaroo|カンガルー| "問題":joi2012-day3-kangaroo-problem.html | "PDF":http://rng.gozaru.jp/kangaroo.pdf |
 |2012-day3|sokoban|倉庫番| "問題":joi2012-day3-sokoban-problem.html | "PDF":http://hos.ac/slides/20120322_joi_sokoban.pdf |
 |2012-day4|chinese|中華料理| "問題":joi2012-day4-chinese-problem.html | "slideshare":http://www.slideshare.net/utatakiyoshi/joiday4chinese |
 |2012-day4|copypaste|コピー＆ペースト| "問題":joi2012-day4-copypaste-problem.html | "PDF":http://hos.ac/slides/20120323_joi_copypaste.pdf |
